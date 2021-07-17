@@ -1,0 +1,20 @@
+body {
+    background-image: url("starry\ sky.png");
+    font-family: 'Kalam', cursive;
+}
+h1 {
+   color: deepskyblue;
+}
+button {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 50px mintcream;}
+    to{box-shadow: 1px 1px 50px cornflowerblue;}
+}
